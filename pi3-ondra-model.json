@@ -1,0 +1,11 @@
+{
+  "type": "model",
+  "authority-id": "Cxmg9kqrPxzY17LJHVYcNlvtE0eI1MRI",
+  "brand-id": "Cxmg9kqrPxzY17LJHVYcNlvtE0eI1MRI",
+  "series": "16",
+  "model": "pi3-ondra",
+  "architecture": "armhf",
+  "gadget": "pi3-ondra",
+  "kernel": "pi2-kernel",
+  "timestamp": "2016-11-04T15:39:11+00:00"
+}

@@ -1,8 +1,19 @@
-name: pi3
+name: pi3-ondra
 version: 16.04-0.5
-summary: Raspberry Pi 3 support package
+summary: Raspberry Pi 3 support package by Ondra
 description: |
  Support files for booting Raspberry Pi
 type: gadget
 architectures:
     - armhf
+slots:
+    zwave-aeon-g5:
+        interface: serial-port
+        usb-vendor: '0658'
+        usb-product: '0200'
+        path: /dev/serial-port-zwave
+    kaifa:
+        interface: serial-port
+        usb-vendor: '0403'
+        usb-product: '6001'
+        path: /dev/serial-port-kaifa
